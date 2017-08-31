@@ -26,7 +26,10 @@ public class KaprekarUtils {
 		
 		if(n < 1) {
 			return false;
-		} 
+		}
+		if (n == 1) {
+			return true;
+		}
 		
 		//we use a long to accommodate larger squares
 		long square = n * n;
